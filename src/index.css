@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+* {
+  /* outline: 1px solid red; */
+}
+html,
+body {
+  background: black;
+
+  font-family: "Telegraf", sans-serif;
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1115px) {
+  .videoplayer {
+    width: 25rem;
+    height: 25rem;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 1020px) {
+  .videoplayer {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1020px) and (max-width: 1180px) {
+  .videoplayer {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .position {
+    display: relative;
+    top: 0;
+    color: red;
+  }
+}
